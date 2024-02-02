@@ -1,0 +1,27 @@
+{% load static %}
+
+<section id="features" class="section-padding">
+    
+    <div class="container">
+      {% for f in features %}
+      <div class="section-header text-center">          
+        <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nossos Diferenciais</h2>
+        <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="content-left">
+            <div class="box-item wow fadeInLeft" data-wow-delay="0.3s">
+              <span class="icon">
+                <i class="{{ f.icone }}"></i>
+              </span>
+              <div class="text">
+                <h4>{{ f.nome }}</h4>
+                <p>{{ f.descricao}}</p>
+              </div>
+            </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+</section>
