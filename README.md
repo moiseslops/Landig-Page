@@ -49,10 +49,12 @@ Descrição   | Cargo   |
 3. Verifique se o Mysql Workbenck está devidamente instalado em sua máquina
 4. Entre no Mysql e digite o comando: <br>
    <br>
-     **CREATE DATABASE fusion**
+`CREATE DATABASE fusion`
 5. Importe os dados do banco fazendo: <br>
-   <br>
-   **python3 manage.py makemigrations**
+   
+  `python3 manage.py makemigrations`
+  
 7. Migre-os com: <br>
-  **python3 manage.py makemigrations**
+
+   `python3 manage.py migrate`
   
