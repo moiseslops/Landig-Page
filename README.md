@@ -45,9 +45,14 @@ Descrição   | Cargo   |
 ## COMO EXECUTAR
 
 1. Baixe o arquivo do repositório
-
 2. abra o terminal e entre na pasta
-
-3. Digite: <br> *python3 manage.py runserver*
-
-4. Verifique se o Mysql Workbenck está devidamente instalado em sua máquina
+3. Verifique se o Mysql Workbenck está devidamente instalado em sua máquina
+4. Entre no Mysql e digite o comando: <br>
+   <br>
+     **CREATE DATABASE fusion**
+5. Importe os dados do banco fazendo: <br>
+   <br>
+   **python3 manage.py makemigrations**
+7. Migre-os com: <br>
+  **python3 manage.py makemigrations**
+  
