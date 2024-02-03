@@ -42,4 +42,12 @@ Descrição   | Cargo   |
  Estevam Gabriel | Estagiário 
 
 
+## COMO EXECUTAR
 
+1. Baixe o arquivo do repositório
+
+2. abra o terminal e entre na pasta
+
+3. Digite: <br> *python3 manage.py runserver*
+
+4. Verifique se o Mysql Workbenck está devidamente instalado em sua máquina
