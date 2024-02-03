@@ -1,4 +1,4 @@
-### Oi, aqui é a equipe Expand, computação simplificada e de qualidade :scroll:! 
+### Oi, aqui é a Landing Page da equipe Expand, computação simplificada e de qualidade :scroll:! 
 
 ## Um pouco sobre nossa equipe:
 <div>
